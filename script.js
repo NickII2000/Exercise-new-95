@@ -67,6 +67,6 @@ const reg = /n/ig;
 // console.log(ans.search(reg));
 // console.log(ans.match(reg));
 
-const pass = prompt('Password');
-console.log(pass);
-console.log(pass.replace(/\./g, '*'));
+// const pass = prompt('Password');
+// console.log(pass);
+// console.log(pass.replace(/\./g, '*'));
