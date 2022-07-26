@@ -54,3 +54,8 @@ console.log(JSON.parse(localStorage.getItem('alex')));
 // new RegExp('pattern', 'flags');
 // /pattern/f
 
+const ans = prompt('Введите Ваше имя');
+
+const reg = /n/;
+console.log(ans);
+console.log(ans.search(reg));
