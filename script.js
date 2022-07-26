@@ -78,8 +78,11 @@ console.log(JSON.parse(localStorage.getItem('alex')));
 // console.log(reg.test(ans));
 
 // \d - цифры
-// \w - буквы
+// \w - Соответствует любому цифробуквенному символу включая нижнее подчёркивание. Эквивалентен [A-Za-z0-9_].
 // \s - пробелы
+
+// \D - НЕцифры
+// \W - НЕ Соответствует любому цифробуквенному символу включая нижнее подчёркивание. Эквивалентен [A-Za-z0-9_].
 
 // const ans = prompt('Введите Ваше число');
 // const reg = /\d/g;
@@ -87,5 +90,9 @@ console.log(JSON.parse(localStorage.getItem('alex')));
 // console.log(ans);
 // console.log(ans.match(reg));
 
+// const str = 'My name is R2D2';
+// console.log(str.match(/\w\d\w\d/i));
+
 const str = 'My name is R2D2';
-console.log(str.match(/\w\d\w\d/i));
+console.log(str.match(/\W/g));
+console.log(str.match(/\D/g));
