@@ -18,7 +18,11 @@ if (localStorage.getItem('bg') === 'changed') {
 }
 
 checkbox.addEventListener('change', () => {
-    localStorage.setItem('isChecked', true);
+    if (localStorage.getItem('isChecked')) {
+        localStorage.removeItem('isChecked');
+    } else {
+        localStorage.setItem('isChecked', true);
+    }
 });
 
 change.addEventListener('click', () => {
