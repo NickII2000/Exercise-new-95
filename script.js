@@ -56,7 +56,7 @@ console.log(JSON.parse(localStorage.getItem('alex')));
 
 // const ans = prompt('Введите Ваше имя');
 
-const reg = /n/ig;
+// const reg = /n/ig;
 
 // Флаги:
 // i - не зависит от регистра
@@ -71,4 +71,8 @@ const reg = /n/ig;
 // console.log(pass);
 // console.log(pass.replace(/\./g, '*'));
 
-console.log('12-34-56'.replace(/-/g, ':'));
+// console.log('12-34-56'.replace(/-/g, ':'));
+
+const ans = prompt('Введите Ваше имя');
+const reg = /n/ig;
+console.log(reg.test(ans));
