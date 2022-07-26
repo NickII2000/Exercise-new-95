@@ -56,6 +56,12 @@ console.log(JSON.parse(localStorage.getItem('alex')));
 
 const ans = prompt('Введите Ваше имя');
 
-const reg = /n/;
+const reg = /n/i;
+
+// Флаги:
+// i - не зависит от регистра
+// g - глобал, найти несколько вхождений
+// m - включает многострочный режим
+
 console.log(ans);
 console.log(ans.search(reg));
