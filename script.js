@@ -83,5 +83,6 @@ console.log(JSON.parse(localStorage.getItem('alex')));
 
 const ans = prompt('Введите Ваше число');
 const reg = /\d/g;
+
 console.log(reg);
 console.log(ans.match(reg));
