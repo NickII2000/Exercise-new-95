@@ -47,3 +47,10 @@ localStorage.setItem('alex', serializedPerson);
 
 console.log(JSON.parse(localStorage.getItem('alex')));
 // console.log(localStorage.getItem('alex'));
+
+
+// Exercise 95, Регулярные выражения
+
+// new RegExp('pattern', 'flags');
+// /pattern/f
+
