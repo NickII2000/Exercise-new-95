@@ -70,3 +70,5 @@ const reg = /n/ig;
 // const pass = prompt('Password');
 // console.log(pass);
 // console.log(pass.replace(/\./g, '*'));
+
+console.log('12-34-56'.replace(/-/g, ':'));
