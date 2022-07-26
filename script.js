@@ -30,3 +30,8 @@ change.addEventListener('click', () => {
         form.style.backgroundColor = 'red';
     }
 });
+
+const person = {
+    name: 'Alex',
+    age: 25,
+};
