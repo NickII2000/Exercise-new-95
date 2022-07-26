@@ -56,7 +56,7 @@ console.log(JSON.parse(localStorage.getItem('alex')));
 
 const ans = prompt('Введите Ваше имя');
 
-const reg = /n/i;
+const reg = /n/igm;
 
 // Флаги:
 // i - не зависит от регистра
