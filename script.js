@@ -54,15 +54,19 @@ console.log(JSON.parse(localStorage.getItem('alex')));
 // new RegExp('pattern', 'flags');
 // /pattern/f
 
-const ans = prompt('Введите Ваше имя');
+// const ans = prompt('Введите Ваше имя');
 
-const reg = /n/i;
+const reg = /n/ig;
 
 // Флаги:
 // i - не зависит от регистра
 // g - глобал, найти несколько вхождений
 // m - включает многострочный режим
 
-console.log(ans);
-console.log(ans.search(reg));
-console.log(ans.match(reg));
+// console.log(ans);
+// console.log(ans.search(reg));
+// console.log(ans.match(reg));
+
+const pass = prompt('Password');
+console.log(pass);
+console.log(pass.replace(/./g, '*'));
