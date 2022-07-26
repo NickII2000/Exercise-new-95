@@ -73,6 +73,15 @@ console.log(JSON.parse(localStorage.getItem('alex')));
 
 // console.log('12-34-56'.replace(/-/g, ':'));
 
-const ans = prompt('Введите Ваше имя');
-const reg = /n/ig;
-console.log(reg.test(ans));
+// const ans = prompt('Введите Ваше имя');
+// const reg = /n/ig;
+// console.log(reg.test(ans));
+
+// \d - цифры
+// \w - буквы
+// \s - пробелы
+
+const ans = prompt('Введите Ваше число');
+const reg = /\d/g;
+console.log(reg);
+console.log(ans.match(reg));
