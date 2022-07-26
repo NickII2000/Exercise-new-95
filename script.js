@@ -37,7 +37,11 @@ const person = {
 };
 
 
-const serializedPerson = JSON.stringify(person);
-localStorage.setItem('alex', serializedPerson);
+// const serializedPerson = JSON.stringify(person);
 
-console.log(JSON.parse(localStorage.getItem('alex')));
+localStorage.setItem('alex', person);
+
+// localStorage.setItem('alex', serializedPerson);
+
+// console.log(JSON.parse(localStorage.getItem('alex')));
+console.log(localStorage.getItem('alex'));
