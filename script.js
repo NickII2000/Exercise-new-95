@@ -81,8 +81,11 @@ console.log(JSON.parse(localStorage.getItem('alex')));
 // \w - буквы
 // \s - пробелы
 
-const ans = prompt('Введите Ваше число');
-const reg = /\d/g;
+// const ans = prompt('Введите Ваше число');
+// const reg = /\d/g;
 
-console.log(ans);
-console.log(ans.match(reg));
+// console.log(ans);
+// console.log(ans.match(reg));
+
+const str = 'My name is R2D2';
+console.log(str.match(/\w\d\w\d/i));
